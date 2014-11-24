@@ -1,0 +1,199 @@
+/**
+ * General elements
+ */
+
+@import url(figure.css);
+
+body {
+	margin: 0px;
+	padding: 0px;
+	background:#556A8D;
+	font-family: "Proxima Nova Regular","Segoe UI",Roboto,"Droid Sans","Helvetica Neue",Arial,sans-serif;
+	line-height: 1.46em;
+}
+
+h1 {
+  font-size: 2.2em;
+}
+
+h1, h2, h3 {
+	color:#334055;
+}
+
+h4 {
+	padding: 0px;
+	margin:0px;
+}
+
+a {
+	color:#222A38;
+	text-decoration:none;
+}
+
+
+
+/**
+ * Layout of the main page elements 
+ */
+#wrapper {
+
+}
+
+
+/**
+ * Layout for header
+ */
+#header {
+  position: relative;
+  margin-bottom: 100px;
+	padding:10px 30px 10px 30px;
+}
+.sitelogo {
+	max-width:130px;
+	position: absolute;
+}
+
+.sitetitle {
+  position: absolute;
+  top: 26px;
+  left: 180px;
+  font-size: 48px;
+	color:white;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+.siteslogan {
+  position: absolute;
+  top: 88px;
+  left: 180px;
+  font-style: italic;
+	color:white;
+}
+
+/**
+ * Layout for main
+ */
+#main {
+	clear:both;
+  min-height: 20em;
+	background-color:white;
+	margin-left:30px;
+	margin-right:30px;
+	border:solid 3px #222A38;
+	padding:20px 20px 20px 20px;
+}
+
+figcaption {
+	text-align:center;
+}
+.articlefigure {
+	max-width:30%;
+	float:left;
+	padding: 0px 20px 20px 20px;
+}
+
+.articlefigure img {
+	border:solid 3px #222A38;
+}
+
+.articleText {
+	float:left;
+}
+.comments {
+	padding:0px;
+	margin:0px;
+	border:solid 3px #222A38;
+	clear:both;
+}
+
+.comment {
+	clear:both;
+}
+
+
+.comment-form {
+	width:300px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.comment-form p {
+	display:none;
+}
+
+.comment-form fieldset:hover p {
+	display:block;
+}
+/**
+ * Layout for footer
+ */
+#footer {
+  margin-top: 10px;
+	margin-left:30px;
+	margin-right:30px;
+
+}
+
+.sitefooter {
+  color: white;
+	margin-left:30px;
+	padding-bottom:40px;
+	
+}
+
+.sitefooter a {
+	color:white;
+}
+
+
+/**
+ * For articles
+ */
+.article1 {
+	
+}
+
+.article1 h1 {
+	border-bottom: 2px solid #222A38;
+	width:100%;
+	padding: 0 0 10px 0;
+}
+
+.article1 h2 {
+  
+}
+
+.byline {
+  margin-top: 44px;
+  border-top: 1px dashed #ccc;
+  padding-top: 22px;
+  color: #666;
+}
+
+.byline p {
+  margin-top: 0;
+	font-style:italic;
+}
+
+
+.byline {
+	clear:both;
+	overflow:auto;
+}
+
+.byline img {
+	max-width: 120px;
+	border:solid 1px #222A38;
+	float:left;
+}
+
+.byline figure {
+	float:right;
+	margin-left:20px;
+	margin-bottom:0;
+}
+
+.byline p {
+	float:right;
+}
+	

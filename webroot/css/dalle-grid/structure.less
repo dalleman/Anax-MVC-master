@@ -1,0 +1,208 @@
+#header,
+#navbar,
+#flash,
+#footer {
+    .column(@columns);
+		margin-bottom: 22px;
+}
+
+#flash{
+	background-color:white;
+	border:solid 3px #222A38;
+}
+ 
+#main {
+    .column(@columns / 4 * 3);
+		margin-bottom: 22px;
+		background-color:white;
+		border:solid 3px #222A38;
+}
+ 
+#sidebar {
+    .column(@columns / 4);
+		margin-bottom: 22px;
+		background-color:white;
+		border:solid 3px #222A38;
+		padding:10px;
+}
+ 
+#featured-1,
+#featured-2,
+#featured-3
+{
+    .column(@columns / 3);
+		margin-bottom: 22px;
+		background-color:white;
+		border:solid 3px #222A38;
+		padding:10px;
+}
+ 
+#footer a{
+	color:white;
+	text-decoration:none;
+}
+
+#wrap-featured,
+#wrap-main,
+#wrap-footer-col {
+    .clearfix();
+}
+
+
+
+
+
+/**
+ * General elements
+ */
+ 
+a {
+	text-decoration:none;
+	color:#376E8A;
+}
+body {
+	background:black;
+	padding:10px;
+}
+
+
+
+/**
+ * Layout of the main page elements 
+ */
+#wrapper {
+	max-width: 960px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+
+/**
+ * Layout for header
+ */
+#header {
+
+}
+.sitelogo {
+	max-width:250px;
+}
+
+.sitetitle {
+
+}
+
+.siteslogan {
+	font-style:italic;
+	color:white;
+}
+
+/**
+ * Layout for main
+ */
+#main {
+	clear:both;
+  min-height: 20em;
+	//background:white;
+	padding:10px;
+}
+
+.articlefigure {
+	max-width:30%;
+	margin:10px;
+	margin-right:20px;
+	float:left;
+	font:10px;
+	font-style:italic;
+}
+
+.articlefigure img {
+	border:solid 3px #222A38;
+}
+
+.articleText {
+	float:left;
+}
+.comments {
+	padding:0px;
+	margin:0px;
+	border:solid 3px #222A38;
+	clear:both;
+}
+
+.comment {
+	clear:both;
+}
+
+
+.comment-form {
+	width:300px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.comment-form p {
+	display:none;
+}
+
+.comment-form fieldset:hover p {
+	display:block;
+}
+/**
+ * Layout for footer
+ */
+#footer {
+  margin-top: 10px;
+
+}
+
+.sitefooter {
+	padding-bottom:40px;	
+}
+
+/**
+ * For articles
+ */
+.article1 {
+	
+}
+
+.article1 h1 {
+	border-bottom: 2px solid #222A38;
+	width:100%;
+	padding: 0 0 10px 0;
+}
+
+.byline {
+  margin-top: 44px;
+  border-top: 1px dashed #ccc;
+  padding-top: 22px;
+}
+
+.byline p {
+  margin-top: 0;
+}
+
+
+.byline {
+	clear:both;
+	overflow:auto;
+}
+
+.byline img {
+	max-width: 120px;
+	border:solid 1px #222A38;
+	float:left;
+}
+
+.byline figure {
+	float:right;
+	margin:0;
+	margin-left:20px;
+}
+
+.byline p {
+	float:right;
+	font-size:80%;
+	font-style:italic;
+}
+	
